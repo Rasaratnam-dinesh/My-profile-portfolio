@@ -1,0 +1,11 @@
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore build directories
+/build/
+/dist/
+
+# Ignore sensitive config files
+config.ini
+credentials.json
