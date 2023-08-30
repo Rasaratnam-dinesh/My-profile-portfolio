@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" type="text/css" href="page.css">
+
+</head>
+<body>
+  <header>
+    <h1>Rasaratnam Dinesh</h1>
+    <p>Welcome to my personal portfolio website.</p>
+  </header>
+  <div class="container">
+    <h2>About Me</h2>
+    <img src="Profile pic.jpeg" alt="Profile Picture" style="width: 150px; height: 200px; border: 2px solid #333;">
+    <p>Hello! I am <b>Rasaratnam Dinesh </b>and am a web developer passionate about creating amazing user experiences.</p>
+    
+    <h2>My certificates </h2>
+    <div class="slideshow-container">
+      <img id="slide1" class="slide" src="AgilePmgt.jpg">
+      <img id="slide2" class="slide" src="BSc.jpg">
+      <img id="slide3" class="slide" src="CA.jpg">
+      <img id="slide4" class="slide" src="Nafso.jpg">
+      <img id="slide5" class="slide" src="AL.jpg">
+    </div>
+   
+    <h2>My Projects</h2>
+    <ul>
+      <li>Project A</li>
+      <li>Project B</li>
+      <li>Project C</li>
+    </ul>
+    <h2>My Skills</h2>
+    <table>
+      <tr>
+        <th>Programming Language</th>
+        <th>Proficiency</th>
+      </tr>
+      <tr>
+        <td>HTML/CSS</td>
+        <td>Advanced</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Intermediate</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td>Beginner</td>
+      </tr>
+    </table>
+    <br>
+    <button id="hire-button" style="background-color: rgb(135, 194, 135); border-radius: 5px; padding: 10px;" >Hire Me</button>
+    
+    
+    <div id="hire-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+          <form id="hire-form" style="display: none;">
+            <label for="company-name">Company Name:</label>
+            <input type="text" id="company-name" name="company-name" required>
+
+            <label for="about-company">About Company:</label>
+            <textarea id="about-company" name="about-company" rows="4" required></textarea>
+
+            <label for="vacancy-position">Vacancy Position:</label>
+            <input type="text" id="vacancy-position" name="vacancy-position" required>
+
+            <label for="about-position">About Position of Vacancy:</label>
+            <textarea id="about-position" name="about-position" rows="4" required></textarea>
+
+            <label for="about-duties">About Duties:</label>
+            <textarea id="about-duties" name="about-duties" rows="4" required></textarea>
+
+            <label for="benefits">Benefits:</label>
+            <textarea id="benefits" name="benefits" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+      </div>
+    </div>
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me through the following links:</p>
+    <ul>
+      <li><a href="mailto:ratnamdinesh.ratnam@gmail.com">Email</a></li>
+      <li><a href="https://github.com/Rasaratnam-dinesh">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/rasaratnam-dinesh-54424b252/">LinkedIn</a></li>
+    </ul>
+  </div>
+  <script src="page.js"></script>
+</body>
+</html>
